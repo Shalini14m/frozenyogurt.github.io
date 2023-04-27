@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frozen Yogurt Cups</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/4571aff811.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/4571aff811.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+
+    <!--Header-------------------->
+
+    <header class="bg-grey px-8">
+
+        <div class="lg:flex flex-auto items-center justify-between 2xl:mx-mr">
+
+            <div class="text-sm px-2 text-blue1 lg:block hidden font-semibold sm:text-center">Social Media Sharing Links
+            </div>
+
+            <div class="flex space-x-12 p-2 text-blue1 sm:text-center lg:block hidden  font-semibold text-sm">
+                <a href="#">Login|Register</a>
+                <a href="#">0 Items|Checkout</a>
+                <a href="#">About</a>
+                <a href="#">Partner Program</a>
+                <a href="#">Franchise</a>
+                <a href="#">How to Order</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="space-x-4 sm:justify-center p-2 text-greyblue1 sm:text-center block md:hidden  font-semibold text-sm">
+                <a href="#">About</a>
+                <a href="#">Partner Program</a>
+                <a href="#">Franchise</a>
+                <a href="#">How to Order</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="md:flex sm:hidden lg:hidden justify-between">
+                <div class="flex">
+                    <div class="pr-2 py-2">
+                        <div class="w-10 h-4 bg-blue1"></div>
+                    </div>
+                    <div class="pr-2 py-2 ">
+                        <div class="w-10 h-4 bg-blue1"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="space-x-2 p-2 text-greyblue1 font-semibold text-sm">
+                        <a href="#">About</a>
+                        <a href="#">Partner Program</a>
+                        <a href="#">Franchise</a>
+                        <a href="#">How to Order</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+    
+                
+        </div>
+    </header>
+
+    <!-- logo section of mobile view -->
+
+    <div class="flex items-center md:hidden mt-4 mx-4 justify-between">
+        <div class="text-2xl font-bold px-2 text-greyblue2 font-serif">InterGreen</div>
+        <div class="bg-grey flex justify-between w-12 h-6 items-center">
+            <i class="fa-solid fa-cart-shopping px-1"></i>
+            <i class="fa-solid fa-0 px-1"></i>
+        </div>
+    </div>
+
+    <!-- Search bar section------------>
+
+   <div class="2xl:pr-20px 2xl:mx-mr">
+    <div class="relative w-52 hidden lg:block float-right right-0 mt-5 mr-8 ">
+        <i class="absolute fa fa-search text-blue1 top-1 bottom-1 right-2"></i>
+        <input type="text"
+            class="bg-white border-2 border-grey h-6 w-full px-4  focus:outline-none hover:cursor-pointer" name="">
+    </div>
+   </div>
+
+
+    <!-- MD search bar section------------>
+
+    <div class="md:flex md:flex-col sm:hidden lg:hidden mt-5">
+        <div>
+            <div class="my-4 ">
+                <h3 class="text-blue1 text-base font-bold float-right mr-6">Login | Register</h3>
+            </div>
+        </div>
+    
+        <div class="md:flex items-center  mt-2 mx-4 justify-between">
+            <div>
+                <div class="text-2xl font-bold px-2 text-greyblue2 font-serif">InterGreen</div>
+            </div>
+            <div class="flex">
+                <div class="bg-grey flex justify-between w-12 h-6 items-center">
+                    <i class="fa-solid fa-cart-shopping px-1"></i>
+                    <i class="fa-solid fa-0 px-1"></i>
+                </div>
+                <div class="relative w-44 ml-2">
+                    <i class="absolute fa fa-search text-blue1 top-1 bottom-1 right-2"></i>
+                    <input type="text"
+                        class="bg-white border-2 border-grey rounded h-6 w-full px-4 focus:outline-none hover:cursor-pointer"
+                        name="">
+                </div>
+            </div>
+    </div>
+    </div>
+
+
+
+    <!-- SM search bar section------------>
+
+    <div class="md:hidden grid place-content-center">
+        <div class="relative w-52 mt-5">
+            <i class="absolute fa fa-search text-blue1 top-1 bottom-1 right-2"></i>
+            <input type="text"
+                class="bg-white border-2 border-grey h-6 w-full px-4 focus:outline-none hover:cursor-pointer"
+                name="">
+        </div>
+        <div class="text-center">
+            <a href="#" class="text-blue1 font-semibold ">Login | Register</a>
+        </div>
+    </div>
+
+
+    <!--Navbar-------------------------------------->
+
+    <div>
+
+        <nav class="md:mt-10 lg:py-10 md:py-2 md:px-8 relative 2xl:mx-mr">
+
+
+            <div class="lg:flex flex-auto items-center justify-between">
+
+                <div class="text-3xl font-bold px-2 text-greyblue1 font-serif hidden lg:block">InterGreen</div>
+
+                <ul class="hidden md:flex space-x-12 p-2 text-greyblue1 font-semibold lg:text-sm text-xl">
+                    <a href="#"><i class="fa-solid fa-house text-blue1 hover:text-black"></i></a>
+                    <a href="#" class="text-greyblue2 lg:text-sm text-xl hover:text-black">CUPS</a>
+                    <a href="#" class="text-greyblue2 lg:text-sm text-xl hover:text-black">SPOONS</a>
+                    <a href="#" class="text-greyblue2 lg:text-sm text-xl hover:text-black">LIDS</a>
+                    <a href="#" class="text-greyblue2 lg:text-sm text-xl hover:text-black">ACCESSORIES</a>
+                    <a href="#" class="text-greyblue2 lg:text-sm text-xl hover:text-black">MARKETING</a>
+                </ul>
+
+                <!--Menu button---------------------->
+
+                <div class="md:hidden block px-6">
+                    <button id="menu-btn" class=" menubutton focus:outline-none">
+                        <span class="menubutton-top"></span>
+                        <span class="menubutton-middle"></span>
+                        <span class="menubutton-bottom"></span>
+                    </button>
+                </div>
+            </div>
+
+            <!--Mobile menu------------------------->
+
+            <div class="md:hidden">
+                <div id="menu"
+                    class="absolute flex-col items-left self-end hidden py-8 mt-10 space-y-6 font-bold bg-greyblue2 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="#">CUPS</a>
+                    <a href="#">SPOONS</a>
+                    <a href="#">LIDS</a>
+                    <a href="#">ACCESSORIES</a>
+                    <a href="#">MARKETING</a>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <!--Section-1------------------------------------------------------>
+
+    <div>
+
+        <div class="flex-col lg:flex lg:flex-auto lg:items-center md:flex-row sm:mx-6 lg:px-4 md:px-6 lg:mt-8 mt-2 2xl:mx-mr">
+
+            <!--Left Section---------------------------------------->
+
+            <div class="lg:mr-12">
+                <div>
+                    <div class="lg:hidden sm:hidden md:block md:mt-2">
+                        <p class="text-sm text-blue1 font-medium">Home > Category Name > Product Name</p>
+                        <hr class="h-px my-2 border-2 border-grey">
+                    </div>
+                    <div class="lg:hidden md:mt-4 mb-2">
+                        <h1 class=" text-2xl font-extrabold md:text-4xl text-blue1 pt-2">50Z Frozen Yogurt Cups</h1>
+                        <h2 class="text-blue1 font-semibold">Lorem ipsum dolor sit subtitle</h2>
+
+                    </div>
+                </div>
+
+                <!--Image section desktop view------------>
+                <div class=" hidden lg:block image">
+                    <div class="pb-2">
+                        <p class="text-sm text-blue1 font-medium">Home > Category Name > Product Name</p>
+                    </div>
+                    <div class="bg-grey w-full h-80"></div>
+
+                    <div class="flex flex-row mt-2 justify-between">
+                        <div class="pr-6 py-6 ">
+                            <div class="w-32 h-32 bg-grey"></div>
+                        </div>
+                        <div class="pr-6 py-6 ">
+                            <div class="w-32 h-32 bg-grey"></div>
+                        </div>
+                        <div class="pr-6 py-6 ">
+                            <div class="w-32 h-32 bg-grey"></div>
+                        </div>
+                        <div class="py-6 ">
+                            <div class="w-32 h-32 bg-grey"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image section medium view -->
+                <div class="lg:hidden sm:hidden md:block">
+
+                    <div class="flex flex-row mt-6 justify-between">
+
+                        <div class="hidden md:block mr-8 pr-4 ">
+                            <div class="bg-grey flex justify-between w-128 h-full items-center">
+                                <i class="fa-solid fa-arrow-left px-4"></i>
+                                <i class="fa-solid fa-arrow-right px-4"></i>
+                            </div>
+                        </div>
+
+                        <div class="hidden md:block">
+                            <div class="flex flex-row">
+                                <div class="pr-9">
+                                    <h3 class="max-w-sm text-blue1 font-bold my-2">Price:</h3>
+                                </div>
+    
+                                <h3 class="max-w-sm text-blue1 font-bold my-2"> $119.99</h3>
+                            </div>
+    
+                            <div class="flex mb-2">
+                                <div>
+                                    <h3 class="font-bold text-blue1 py-1">Quantity:</h3>
+                                </div>
+                                <div class="pt-1 pl-2">
+                                    <input type="text" class="bg-white border-2 rounded border-grey h-4 w-8 " name="">
+                                </div>
+                            </div>
+                            <div class="flex mb-2">
+                                <div class=" pr-8">
+                                    <h3 class="font-bold text-blue1">Color:</h3>
+                                </div>
+                                <div>
+                                    <select name="color" class="border-2 rounded border-grey text-blue1">
+                                        <option value="white">white</option>
+                                        <option value="red">chocolate</option>
+                                        <option value="blue">blueberry</option>
+                                        <option value="black">vanilla</option>
+                                        <option value="black">strawberry</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="py-2">
+                                <button class="bg-blue1 text-white font-bold text-lg items-center rounded mb-2 px-2 py-1">Add
+                                    to
+                                    Cart</button>
+                            </div>
+                            <h6 class="font-bold text-blue1 pb-3">Share this:</h6>
+
+                            <div class="bg-grey flex w-64 h-20 place-items-center">
+                                <div class="pl-2">
+                                    <h4 class="text-blue1 p-1 font-bold">Custom Print<br>Service Available.</h4>
+                                </div>
+                                <div class="pl-2 pt-2">
+                                    <button class="bg-blue1 text-white items-center rounded mb-2 p-1">Learn More</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Paragraph section -->
+
+
+                    <div class="my-6 hidden md:block text-base font-semibold">
+
+                        <p class="text-blue1 my-1 font-semibold">Perfect for frozen yogurt and
+                            other
+                            uses. Designed to hold both hot and cold items.</p>
+                        <div class="my-4">
+                            <h4 class="text-blue1 font-semibold">Packaged in 1,000 cups per case.</h4>
+                            <h4 class="text-blue1 font-semibold">Standard Double PE coating.</h4>
+                        </div>
+
+                        <p class=" font-semibold my-1 text-blue1">This yogurt cup / food
+                            container
+                            is biodegradable and <br>part of our commitment to environmental friendly
+                            <br>disposable
+                            takeout products.
+                        </p>
+
+                    </div>
+                    <!-- para over -->
+
+                </div>
+
+                <!-- Mobile View -->
+                <div class="md:hidden  lg:hidden flex-col">
+                    <div class="bg-grey flex justify-between w-full h-56 items-center">
+                        <i class="fa-solid fa-arrow-left px-4"></i>
+                        <i class="fa-solid fa-arrow-right px-4"></i>
+                    </div>
+                    <!-- Written section of sm view -->
+
+                    <div class="flex justify-between">
+
+                        <div>
+                            <p class="text-blue1 text-xs my-2 font-semibold">Perfect for frozen yogurt<br>and other
+                                uses. Designed<br>to hold both hot and cold<br>items.</p>
+                            <div class="my-4 py-2">
+                                <h4 class="text-blue1 text-xs font-semibold">Packaged in 1,000 cups<br>per case.</h4>
+                                <h4 class="text-blue1 text-xs font-semibold">Standard Double PE<br>coating.</h4>
+                            </div>
+                            <p class="text-xs font-semibold my-2 pb-6 pt-4 text-blue1">This yogurt cup /
+                                food<br>container is biodegradable<br>and part of our commitment<br>to environmental
+                                friendly<br>disposable takeout<br>products.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="flex flex-row">
+                                <div class="pr-9">
+                                    <h3 class="max-w-sm text-blue1 font-bold my-2">Price:</h3>
+                                </div>
+    
+                                <h3 class="max-w-sm text-blue1 font-bold my-2"> $119.99</h3>
+                            </div>
+                            <div class="flex mb-2">
+                                <div>
+                                    <h3 class="font-bold text-blue1 py-1">Quantity:</h3>
+                                </div>
+                                <div class="pt-1 pl-2">
+                                    <input type="text" class="bg-white border-2 rounded border-grey h-4 w-8 " name="">
+                                </div>
+                            </div>
+                            <div class="flex mb-2">
+                                <div class=" pr-8">
+                                    <h3 class="font-bold text-blue1">Color:</h3>
+                                </div>
+                                <div>
+                                    <select name="color" class="border-2 rounded border-grey text-blue1">
+                                        <option value="white">white</option>
+                                        <option value="red">chocolate</option>
+                                        <option value="blue">blueberry</option>
+                                        <option value="black">vanilla</option>
+                                        <option value="black">strawberry</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="py-2">
+                                <button class="bg-blue1 text-white font-bold text-lg items-center rounded mb-2 px-2 py-1">Add
+                                    to
+                                    Cart</button>
+                            </div>
+
+
+                            <div class="bg-grey grid place-items-center text-sm">
+                                <h4 class="text-blue1 text-center mb-3 mt-2 text-sm p-auto font-bold">Custom Print
+                                    Service<br>Available.
+                                </h4>
+                                <button class="bg-blue1 text-white items-center rounded-sm text-sm mb-2 p-auto">Learn
+                                    More</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Image section over---------->
+            </div>
+
+            <!--Written section--------------------->
+            <div class=" hidden lg:block">
+                <div class="mb-4 space-y-3 justify-end">
+                    <h5 class=" text-2xl md:font-extrabold md:text-4xl text-blue1 pt-6">50Z Frozen Yogurt Cups</h5>
+                    <h2 class="text-blue1 font-semibold">Lorem ipsum dolor sit subtitle</h2>
+                    <hr class="h-px my-3  border-2 border-grey">
+                </div>
+
+                <div class="container flex flex-row mt-4 space-y-0 md:space-y-0 justify-between">
+                    <div class="mr-6 md:mt-8">
+                        <div>
+                            <p class="text-blue1 text-sm my-2 font-semibold">Perfect for frozen yogurt and other uses.
+                                Designed to<br>hold both hot and cold items.</p>
+                            <div class="my-4 py-2">
+                                <h4 class="text-blue1 font-semibold">Packaged in 1,000 cups per case.</h4>
+                                <h4 class="text-blue1 font-semibold">Standard Double PE coating.</h4>
+                            </div>
+                        </div>
+
+                        <div class="bg-grey w-3/4 ">
+                            <div class="pt-2">
+                                <h4 class="text-blue1 text-center p-1 font-bold">Custom Print Service Available.</h4>
+                            </div>
+                            <div class="text-center my-2 pb-2">
+                                <button class="bg-blue1 text-white rounded-sm p-1">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="sm:text-sm font-semibold my-2 pb-6 pt-4 text-blue1">This yogurt cup / food
+                                container
+                                is biodegradable and <br>part of our commitment to environmental friendly
+                                <br>disposable
+                                takeout products.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mr-6 mt-32" style="margin-top:30px;">
+                        <div class="flex flex-row">
+                            <div class="pr-9">
+                                <h3 class="max-w-sm text-blue1 font-bold my-2">Price:</h3>
+                            </div>
+
+                            <h3 class="max-w-sm text-blue1 font-bold my-2"> $119.99</h3>
+                        </div>
+
+                        <div class="flex mb-2">
+                            <div>
+                                <h3 class="font-bold text-blue1 py-1">Quantity:</h3>
+                            </div>
+                            <div class="pt-1 pl-2">
+                                <input type="text" class="bg-white border-2 rounded border-grey h-4 w-8 " name="">
+                            </div>
+                        </div>
+                        <div class="flex mb-2">
+                            <div class=" pr-8">
+                                <h3 class="font-bold text-blue1">Color:</h3>
+                            </div>
+                            <div>
+                                <select name="color" class="border-2 rounded border-grey text-blue1">
+                                    <option value="white">white</option>
+                                    <option value="red">chocolate</option>
+                                    <option value="blue">blueberry</option>
+                                    <option value="black">vanilla</option>
+                                    <option value="black">strawberry</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="py-2">
+                            <button class="bg-blue1 text-white font-bold text-lg items-center rounded mb-2 px-2 py-1">Add
+                                to
+                                Cart</button>
+                        </div>
+                        <h6 class="font-bold text-blue1">Share this:</h6>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+    </section>
+
+
+    <!---Card Section----------------------------------------------->
+
+    <section id="card" class="py-10 px-8 2xl:mx-80">
+
+        <hr class=" border-grey border-2" />
+
+        <h2 class="text-blue1 mt-3 pt-8 pb-3 pl-2 font-bold text-2xl text-center lg:text-left 2xl:px-28">You may also be interested in:</h2>
+
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 md:gap-2 lg:gap-4 justify-items-center mb-12 2xl:gap-0">
+
+            <!--First Card------------------------>
+
+            <div class="py-4 shadow-sm md:mx-auto">
+                <div class="h-56 w-full bg-grey"></div>
+                <div class="px-3 py-3 flex justify-between">
+                    <p class="text-blue1 font-semibold">Vestibulum tincidunt<br>telius a metus hendrer</p>
+                    <h3 class="text-blue1 font-bold">$199.29</h3>
+                </div>
+                <div class="py-2 px-24 text-center">
+                    <button class="bg-blue1 text-white  p-2">Add to Cart</button>
+                </div>
+            </div>
+
+            <!--Second Card------------------------>
+
+            <div class="py-4 shadow-sm">
+                <div class="h-56 w-full bg-grey"></div>
+                <div class="px-3 py-3 flex justify-between">
+                    <p class="text-blue1 font-semibold">Vestibulum tincidunt<br>telius a metus hendrer</p>
+                    <h3 class="text-blue1 font-bold">$199.29</h3>
+                </div>
+                <div class="py-2 px-24 text-center">
+                    <button class="bg-blue1 text-white  p-2">Add to Cart</button>
+                </div>
+            </div>
+
+            <!--Third Card------------------------>
+
+            <div class="py-4 shadow-sm">
+                <div class="h-56 w-full bg-grey"></div>
+                <div class="px-3 py-3 flex justify-between">
+                    <p class="text-blue1 font-semibold">Vestibulum tincidunt<br>telius a metus hendrer</p>
+                    <h3 class="text-blue1 font-bold">$199.29</h3>
+                </div>
+                <div class="py-2 px-24 text-center">
+                    <button class="bg-blue1 text-white p-2">Add to Cart</button>
+                </div>
+            </div>
+
+            <!--Fourth Card------------------------>
+
+            <div class="py-4 shadow-sm">
+                <div class="h-56 w-full bg-grey"></div>
+                <div class="px-3 py-3 flex justify-between">
+                    <p class="text-blue1 font-semibold">Vestibulum tincidunt<br>telius a metus hendrer</p>
+                    <h3 class="text-blue1 font-bold">$199.29</h3>
+                </div>
+                <div class="py-2 px-24 text-center">
+                    <button class="bg-blue1 text-white p-2">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!--Footer--------------------------------------------->
+
+    <footer class="bg-grey">
+
+        <!-- footer large screen -->
+
+        <div class="grid lg:grid-cols-5 lg:gap-5 justify-items-center 2xl:mx-80">
+
+            <div>
+                <h1 class="text-blue1 font-bold text-2xl my-4 py-4 font-serif hidden lg:block">InterGreen</h1>
+            </div>
+
+            <div class="my-4 py-4 text-blue1 hidden lg:block">
+                <h1 class="font-bold pb-4">SHOP</h1>
+                <h6 class="text-sm">CUPS</h6>
+                <h6 class="text-sm">SPOONS</h6>
+                <h6 class="text-sm">LIDS</h6>
+                <h6 class="text-sm">ACCESSORIES</h6>
+                <h6 class="text-sm">MARKETING</h6>
+            </div>
+
+            <div class="my-4 py-4 text-blue1 hidden lg:block">
+                <h1 class="font-bold pb-4">INFO</h1>
+                <h6 class="text-sm">COMPANY</h6>
+                <h6 class="text-sm">FRANCHISE</h6>
+                <h6 class="text-sm">PARTNERS</h6>
+                <h6 class="text-sm">CONTACT</h6>
+                <h6 class="text-sm">FAQ</h6>
+            </div>
+
+            <div class="my-4 py-4 text-blue1 hidden lg:block">
+                <h1 class="font-bold pb-4">FOLLOW US</h1>
+                <h6 class="text-sm">GET OUR NEWSLETTER</h6>
+                <input type="text" class="mt-3"></input>
+                <button class="bg-blue1 text-white font-semibold px-3 my-3">SIGN UP</button>
+                <div class="flex">
+                    <i class="fa-brands fa-facebook pr-2 h-4"></i>
+                    <i class="fa-brands fa-twitter pr-2 h-4"></i>
+                    <i class="fa-brands fa-linkedin pr-2 h-4"></i>
+                </div>
+            </div>
+
+            <div class="my-4 py-4 text-blue1 hidden lg:block">
+                <h1 class="font-bold pb-4">PAYMENT</h1>
+                <input type="text" class="mt-3 bg-blue1 px-4 py-6 w-52 h-16"></input>
+                <div class="flex-row flex space-x-3">
+                    <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                    <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                    <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                    <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                    <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                </div>
+            </div>
+
+
+
+            <!-- footer medium and small screen -->
+
+            <div class="flex px-8 md:flex-row sm:flex-col lg:hidden sm:text-center justify-between md:grid md:grid-cols-3 md:gap-3 md:justify-items-center">
+                <div class="my-4 py-4 sm:my-1 sm:pb-1 text-blue1">
+                    <h6 class="text-sm">GET OUR NEWSLETTER</h6>
+                    <input type="text" class="mt-3"></input>
+                    <div><button class="bg-blue1 text-white font-semibold px-3 my-3">SIGN UP</button></div>
+
+                </div>
+
+
+                <div class="my-4 py-4 sm:my-1 sm:pb-1 text-blue1 hover:text-black sm:mx-auto ">
+                    <h1 class="font-bold pb-4 sm:pb-1">FOLLOW US</h1>
+                    <div class="flex">
+                        <i class="fa-brands fa-facebook pr-2 h-4"></i>
+                        <i class="fa-brands fa-twitter pr-2 h-4"></i>
+                        <i class="fa-brands fa-linkedin pr-2 h-4"></i>
+                    </div>
+                </div>
+
+                <div class="my-4 py-4 sm:my-1 text-blue1 sm:pb-1">
+                    <h1 class="font-bold pb-4 sm:pb-1">PAYMENT</h1>
+                    <input type="text" class="mt-3 bg-blue1 px-4 py-6 w-52 h-16"></input>
+                    <div class="flex-row flex space-x-3">
+                        <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                        <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                        <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                        <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                        <div><input type="text" class="mt-3 bg-blue1 px-4 w-3"></input></div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+    </footer>
+
+    <div class="bg-grey">
+        <div class="text-center text-sm">
+            <p class="text-sm text-blue1 py-4">Privacy policy | Terms & conditions<br>Copyright 2013 Lorem ipsum
+                dolor sit
+                amet</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
